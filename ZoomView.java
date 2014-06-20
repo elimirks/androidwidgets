@@ -1,4 +1,4 @@
-package ca.carpages.carpagesconsumer;
+package <your package>;
 
 import android.view.View;
 import android.widget.FrameLayout;
