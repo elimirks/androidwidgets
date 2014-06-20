@@ -1,7 +1,8 @@
 androidwidgets
 ==============
 
-StackView:
+StackView
+---------
 
 Used to create multi column vertical linear layouts.
 
@@ -20,7 +21,8 @@ stack.pushView(child3);
 // etc...
 ```
 
-ViewPagerIndicator:
+ViewPagerIndicator
+------------------
 
 Used to nicely indicate the current position in a ViewPager.
 It is composed of dots representing pages which parallax if there isn't enough room to fit in the parent ViewPager.
@@ -66,7 +68,8 @@ photoPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 });
 ```
 
-ZoomView:
+ZoomView
+--------
 
 Performs various zooming operations like double tap, pinch to zoom, and flick to scroll.
 Should only contain one child!
